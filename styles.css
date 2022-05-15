@@ -1,0 +1,190 @@
+body{
+  background-color: #C2B8A3;
+  display: grid;
+  grid-template-columns: repeat(4,1500px);
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background: red;
+    font-size: 70px;
+    position: fixed;
+    padding-left: 50px;
+    left: 0;
+    top: 0;
+
+}
+
+.header__img--homelogo{
+  margin-top: 10px;
+  text-decoration: none;
+
+}
+
+.header__searchbar{
+  height:50px;
+  width:500px; 
+  font-size:30px;
+}
+
+.header__ddlist{
+  display: inline-block;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  width: 250px;
+  height: 50px;
+  font-size: 40px;
+}
+
+
+.header__signupbutton{
+  margin-bottom: 5px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.header__signuplink{
+
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 200px;
+  height: 50px;
+  font-size: 40px;
+
+}
+
+.header__img--profile{
+  width: 3%;
+  position: relative;
+  left: 0px;
+}
+
+.header__img--profilelink{
+  width: 3%;
+  position: relative;
+  top: 10px;
+  left: 130px;
+}
+.recipies{
+  margin-top: 105px;
+}
+
+
+.recipies__divs{
+  background-color: #F9F3DF;
+  border-color: #521262;
+  border-style: solid;
+  border-width: 7px;
+  display: inline-block;
+  height: 30rem;
+  margin-right: 20px;
+  margin-left: 140px;
+  margin-bottom: 50px;
+  width: 19%;
+}
+
+.recipies__divs__imgs{
+  width: 50%;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+.recipies__divs__names{
+  text-align: center;
+  color: #521262;
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+}
+
+.recipies__divs__hiddeningredients{
+  display: none;
+  position: relative;
+  left: 40px;
+  font-size: 15px;
+}
+.recipies__divs__hovertoseeingredients:hover + .recipies__divs__hiddeningredients{
+  padding-bottom: 30px;
+  display: block;
+  color: #09009B;
+}
+@media only screen and (max-width: 1472px) {
+
+  body{
+    background: #bbbbbb;
+    display: unset;
+  }
+.header{
+  background: red;
+  font-size: 30px;
+  height: 180px;
+  margin-left: 0px;
+  padding-left: 5px;
+  font-size: 45px;
+}
+
+  .header__img--homelogo{
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: center;
+
+  }
+  .header__searchbar{
+    width: 100%;
+    margin-left: 0px;
+    height: 20%;
+    border-radius: 10px;
+
+    
+
+
+  }
+  .header__signuplink{
+    width: 40%;
+    height: 30%;
+    font-size: 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+
+
+  }
+  .header__ddlist{
+    width: 40%;
+    font-size: 28px;
+    height: 30%;
+    margin-left: 0px;
+    border-radius: 5px;
+  }
+  .recipies__divs{
+    width: 80%;
+    height: 100%;
+    padding-bottom: 0px;
+    margin-top: 100px;
+    margin-left: 70px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .recipies__divs__hiddeningredients{
+    font-size: 20px;
+    left: 15px;
+    
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
