@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Login!</title>
+  <link rel="icon" href="icons/logo icon.ico">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/login.css">
+  <meta charset="UTF-8">
+  <script src="login.js"></script>
+  
+</head>
+
+<body>
+  <div class="login-div">
+    <form name="check">
+      <h1 class="login-word">Login
+        <img src="images/logo_2-modified.png" title="logo" alt=" " style="width: 70px;height: auto">
+      </h1>
+      <div id="log"><label for="user">UserName:</label><input type="text" id="user" placeholder="enter user name" required><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pss" id="pass" placeholder="enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" value="" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+          required><br>
+        <input class="gen" type="checkbox" checked="checked" name="remember"><label> Remember me
+        </label>
+      </div>
+      <div id="vale">
+        <input class="submit" title="submit button" type="submit" value="Submit" formaction="homeAfterSignUp.html" onclick="verifyPassword(document.check.pss)">
+        <span class="forgot-pass"> <a title="forgot password link" href="#">Forgotpassword?</a></span>
+
+      </div>
+
+
+
+    </form>
+  </div>
+
+  <div style="background-image: url('images/blue-bubbles.jpg');" class="sign-up">
+    <div class="sign-div">
+
+
+      <h2 class="new-here">New Here?</h2>
+      <h4 class="sign-paragraph">sign up and have a look on our great recipes</h4>
+      <a class="register-link" title="go to register page" href="register.html">register</a>
+      <div id="social">
+        <a href="#"><i title="go to facebook" class="fa fa-facebook" style="color: blue; font-size: 40px;"></i></a>
+        <a href="#"><i title="go to google" class="fa fa-google" style=" font-size: 40px;"></i></a>
+        <a href="#"><i title="go to twitter" class="fa fa-twitter" style=" color: deepskyblue; font-size: 40px;"></i></a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

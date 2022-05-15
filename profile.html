@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>Profile</title>
+  <link rel="icon" href="icons/logo icon.ico">
+
+  <meta charset="utf-8" />
+  <meta name="description" content="food recipies" />
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="header">
+    <a class="header__img--homelogo" href="homeAfterSignUp.html" title="home logo">
+      <img class="logo" title="go home" src="images/proj logo.png" alt="home logo" width="50px">
+    </a>
+    Recipe Space
+
+    <input  class="header__searchbar" style="text" placeholder="search" title="search bar">
+
+    <select class="header__ddlist"  title="categories list" name="">
+      <option value="none" selected disabled hidden>Categories</option>
+      <option value="general">general</option>
+      <option value="asian food">asian food</option>
+      <option value="american food">american food</option>
+      <option value="italian food">italian food</option>
+    </select>
+
+    <a class="header__img--profilelink" href="profile.html"> <img title="user photo" class="header__img--profile" src="images/user-modified.png" alt="user photo"> </a>
+
+  </div>
+
+
+
+  <div class="list" style="background-image: url('images/profile7.jpg');">
+    <div class="list__wrapper">
+
+    <h1 class="list__wrapper__profile-info">Profile Info</h1>
+
+    <ul>
+      <li class="list__wrapper__list-field">First Name :</li>
+      <ul>
+        <li class="list__wrapper__list-value" id="name">*first-name*</li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li class="list__wrapper__list-field">Last Name :</li>
+      <ul>
+        <li class="list__wrapper__list-value" id="nname">*last-name*</li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li class="list__wrapper__list-field">User-Name :</li>
+      <ul>
+        <li class="list__wrapper__list-value" id="user">*user-name*</li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li class="list__wrapper__list-field">E-mail :</li>
+      <ul>
+        <li class="list__wrapper__list-value" id="e-mail">*email*</li>
+      </ul>
+    </ul>
+  </div>
+  </div>
+</body>
+</html>
